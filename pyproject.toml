@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sqlalchemy + Behave"
+version = "0.1.0"
+description = ""
+authors = ["Vadim Kirzhakov"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+behave = "^1.2.6"
+allure-pytest = "^2.13.2"
+pytest = "^8.0.1"
+sqlalchemy = "^2.0.27"
+psycopg2 = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
